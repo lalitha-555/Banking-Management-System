@@ -1,8 +1,8 @@
-Banking Management System
+# Banking Management System
 
 ## Overview
 
-The Banking Management System is a Java-based console application developed using **Java**, **JDBC**, and **SQLite**. It allows users to manage customer accounts and perform basic banking operations efficiently. This project demonstrates Java programming, database connectivity, and CRUD operations.
+The Banking Management System is a Java-based console application developed using **Java**, **JDBC**, and **MySQL**. It allows users to manage customer accounts and perform basic banking operations efficiently. This project demonstrates Java programming, database connectivity, and CRUD operations.
 
 ## Features
 
@@ -20,7 +20,7 @@ The Banking Management System is a Java-based console application developed usin
 
 - Java
 - JDBC
-- SQLite
+- MySQL
 - Eclipse IDE
 - Git & GitHub
 
@@ -29,18 +29,18 @@ The Banking Management System is a Java-based console application developed usin
 ```text
 Banking-Management-System/
 ├── src/
-├── banking.db
-├── bankingdb.sql
-└── README.md
+├── README.md
+└── Database: BankingDB (MySQL)
 ```
 
 ## How to Run
 
 1. Clone this repository.
 2. Open the project in Eclipse IDE.
-3. Add the SQLite JDBC driver.
-4. Run `BankingManagementSystem.java`.
-5. Use the menu to perform banking operations.
+3. Add the MySQL JDBC driver.
+4. Create the `BankingDB` database in MySQL.
+5. Update the database username and password in `DBConnection.java` if needed.
+6. Run `BankingManagementSystem.java`.
 
 ## Learning Outcomes
 
@@ -49,7 +49,7 @@ This project helped me improve my knowledge of:
 - Java Programming
 - Object-Oriented Programming (OOP)
 - JDBC
-- SQLite Database
+- MySQL Database
 - CRUD Operations
 - Exception Handling
 - Git and GitHub
